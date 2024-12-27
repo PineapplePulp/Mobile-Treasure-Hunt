@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Mobile Treasure Hunt</string>
+
+    <!--Rule content strings-->
+    <string name="mark1">1. </string>
+    <string name="mark2">2. </string>
+    <string name="mark3">3. </string>
+    <string name="mark4">4. </string>
+    <string name="mark5">5. </string>
+    <string name="mark6">6. </string>
+    <string name="mark7">7. </string>
+    <string name="rule1">
+        You must find every location pointed to by the clues. The app will time your attempt.
+    </string>
+    <string name="rule2">
+        You may request a hint for every clue. Like clues, hints use indirect language.
+    </string>
+    <string name="rule3">
+        Press the \"Found It!\" button once you have found the location
+    </string>
+    <string name="rule4">
+        If you are wrong, a pop-up will inform you. The timer will not stop during the pop-up.
+    </string>
+    <string name="rule5">
+        If you are correct, a screen will inform you. The timer will be paused on this screen.
+    </string>
+    <string name="rule6">
+        For this specific treasure hunt, you will likely need a car and ample of time. All locations
+        are in Oregon.
+    </string>
+    <string name="rule7">
+        You can quit the treasure hunt at any time.
+    </string>
+
+
+    <!--Clue content strings-->
+    <string name="clue1">Park near a crack in the ground</string>
+    <string name="clue2">Live in a chateau at the dread river of oath</string>
+    <string name="clue3">Was Gladstone a witch?</string>
+
+    <!--Location coordinates-->
+    <string name="lat1">43.332810</string>
+    <string name="lon1">-120.676000</string>
+    <string name="lat2">42.09848</string>
+    <string name="lon2">-123.40762</string>
+    <string name="lat3">42.93863</string>
+    <string name="lon3">-122.14680</string>
+
+    <!--Clue target location descriptors-->
+    <string name="desc1">
+        Unlike most ancient volcanic fissures, Crack-in-the-Ground exists
+        today nearly the same as it did thousands of years ago because
+        the arid region around it prevented much filling from occurring.
+        It reaches over 2 miles long and up to 70 feet deep, with a trail
+        along the fissure\'s bottom to hike through and cool off.
+        <!--https://www.blm.gov/visit/crack-ground-->
+    </string>
+    <string name="desc2">
+        The Chateau at the Oregon Caves is located next to the Oregon
+        Caves National Monument, which offers tours through one of the few
+        marble caves in the Pacific Northwest of national significance.
+        The marble of the caves lies in an isolated block within a faulted
+        mixture of igneous, sedimentary, and metamorphic rocks. In the caves
+        also lies the River Styx, the underground segment of Cave Creek.
+        <!--https://sos.oregon.gov/blue-book/Pages/explore/monuments/oregon-caves-mcclaughry.aspx-->
+        <!--https://www.rivers.gov/river/river-styx-->
+    </string>
+    <string name="desc3">
+        The name "Witches Cauldron" was given by William Gladstone Steel
+        in 1885, and it is located on Wizard Island, a volcanic cinder
+        cone, which is situated at the west end of Crater Lake. Approximately
+        7700 years ago, Mount Mazama erupted violently, leaving behind
+        the hole that became Crater Lake. Two hiking trails are available
+        on Wizard Island.
+    </string>
+
+    <!--Labels and titles-->
+    <string name="hint_label">Hint?</string>
+    <string name="clue_title">Clue #%1$d</string>
+    <string name="found_label">Found Location!</string>
+    <string name="solved_title">You found a clue!</string>
+    <string name="progress_label">%1$d out of %2$d</string>
+    <string name="next_label">Next Clue</string>
+    <string name="timer">%1$s:%2$s:%3$s</string>
+    <string name="timer_paused">PAUSED</string>
+    <string name="wrong_label">Wrong Location!</string>
+    <string name="continue_label">Continue</string>
+    <string name="end_title">All clues found!</string>
+    <string name="quit_label">Quit</string>
+    <string name="home_label">Home</string>
+    <string name="proceed_label">Proceed</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="quit_confirm_label">Are you sure you want to quit?</string>
+    <string name="accept_button_label">Continue to the app</string>
+    <string name="fine_loc_button_label">Fine location access</string>
+    <string name="coarse_loc_button_label">Coarse location access</string>
+    <string name="permission_title">Location Access Needed</string>
+
+    <!--Permission description-->
+    <string name="permission_desc">
+        As a treasure hunt, this app requires both fine and coarse permissions
+        to check if you have found the "treasure," which are the locations that
+        the clues point to. This is the main function of the app. Please press
+        the buttons below and accept the following dialogs to continue to the app.
+    </string>
+
+    <!--Hint content strings-->
+    <string name="hint1">Lava Crater</string>
+    <string name="hint2">Marble caves in a forest</string>
+    <string name="hint3">He discovered a lake</string>
+
+    <!--Target locations for clues-->
+    <string name="target1">Crack-in-the-Ground</string>
+    <string name="target2">Chateau at the Oregon Caves</string>
+    <string name="target3">Witches Cauldron</string>
+
+    <!--Toast content strings-->
+    <string name="received_coarse_loc">Received permission for coarse location</string>
+    <string name="received_fine_loc">Received permission for fine location</string>
+    <string name="already_received_coarse_loc">Already received permission for coarse location</string>
+    <string name="already_received_fine_loc">Already received permission for fine location</string>
+</resources>
